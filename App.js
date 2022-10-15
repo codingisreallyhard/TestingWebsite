@@ -1,6 +1,10 @@
 import "./App.css";
+import CarouselFadeExample from "./components/AnotherCarousel";
+import AnotherCarousel from "./components/AnotherCarousel";
+import Bio from "./components/Bio";
 import IndividualIntervalsExample from "./components/CarouselMain";
 import DropDownFunction from "./components/Dropdown";
+import Gallery from "./components/Gallery";
 
 function App() {
   return (
@@ -13,10 +17,15 @@ function App() {
             <DropDownFunction />
           </div>
         </nav>
-        <section className="carousel-class">
-          <IndividualIntervalsExample />
+        <section>
+          <div className="carousel-class">
+            <AnotherCarousel />
+          </div>
         </section>
       </header>
+
+      <Bio />
+      <Gallery />
     </div>
   );
 }

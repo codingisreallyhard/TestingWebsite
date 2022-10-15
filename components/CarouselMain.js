@@ -5,7 +5,7 @@ function IndividualIntervalsExample() {
     <Carousel className="carousel-class">
       <Carousel.Item interval={5000}>
         <img
-          className="carousel-img"
+          className="carousel-img-first d-block w-100 "
           src="https://www.pitbulltattoothailand.com/app/uploads/2019/09/japanese-tattoo-style-002.jpg"
           alt="First slide"
         />
@@ -16,7 +16,7 @@ function IndividualIntervalsExample() {
       </Carousel.Item>
       <Carousel.Item interval={5000}>
         <img
-          className="carousel-img"
+          className="carousel-img-second d-block w-52 "
           src="https://images.pexels.com/photos/2713983/pexels-photo-2713983.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           alt="Second slide"
         />
@@ -27,8 +27,8 @@ function IndividualIntervalsExample() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="carousel-img"
-          src="https://ichef.bbci.co.uk/news/976/cpsprodpb/1786E/production/_107366369_image3.jpg"
+          className="carousel-img-third d-block w-100 "
+          src="https://images.pexels.com/photos/1433272/pexels-photo-1433272.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           alt="Third slide"
         />
         <Carousel.Caption>
